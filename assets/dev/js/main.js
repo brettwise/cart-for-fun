@@ -1,10 +1,3 @@
-// ToDo
-// add logic to check to see if other diner has selected cheesecake. 
-// idea: could create global cheesecake variable.
-// 
-// then create button to switch diners. 
-// which will reset all li nodes to unselected and switch to dinerSelected to dinerTwo.
-
 // Rules
 // Each person must have at least two courses, one of which must be a main.
 // Each diner cannot have more than one of the same course.
@@ -12,6 +5,10 @@
 // Pierre the snobby waiter will not let you have prawn cocktail and salmon fillet in the same meal.
 // The total bill amount is displayed when at least one dish has been selected.
 // An error message is displayed when I try to select an invalid menu combination.
+
+// ToDo
+// add logic to check to see if other diner has selected cheesecake. 
+// idea: could create global cheesecake variable.
 
 var grandTotal = 0.00;
 
