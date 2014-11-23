@@ -54,7 +54,7 @@ function cartStuff(e) {
   }
 }
 
-// I started "refactoring" the aboveStart of refactor
+// I started "refactoring" the above but decided to finish the whole thing first with current approach before actually doing it.
 // function setItemClass(e) {
 //   var target = e.target;
 //   if (target.className === "unselected") {
