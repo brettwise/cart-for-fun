@@ -90,9 +90,9 @@ function switchDiner(e) {
     } 
   } else {
     // we are going to use a for loop to sort through each item of the arrary
-    for (var i = 0; i < dinerSelected.itemsOrdered.length; i++) {
-        if (dinerSelected.itemsOrdered[i] ===
-    }
+    // for (var i = 0; i < dinerSelected.itemsOrdered.length; i++) {
+    //     if (dinerSelected.itemsOrdered[i] ===
+    // }
     // we are going to take each string in the itemsOrdered array
     // we are going to get the array of li elements and compare each element in that array.
     // to the itemsOrdered array.
