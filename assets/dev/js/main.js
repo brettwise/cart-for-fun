@@ -96,8 +96,11 @@ function switchDiner(e) {
     for (var i = 0; i < dinerSelected.itemsOrdered.length; i++) {
         if (dinerSelected.itemsOrdered[i] ===
     }
-    // we are going to take each string and compare it to each elements text node.
-    // when we find a match we are going to mark that className as selected.
+    // we are going to take each string in the itemsOrdered array
+    // we are going to get the array of li elements and compare each element in that array.
+    // to the itemsOrdered array.
+    // when we find a match we are going to mark that element's className as "selected".
+    // 
   }
 }
 
