@@ -86,13 +86,22 @@ function switchDiner(e) {
   if (dinerSelected.itemsOrdered.length === 0) {
     var els = document.getElementsByClassName("selected");
     for (var i = 0; i < els.length; i++) {
+      console.log(els[i]);
       els[i].className = "unselected";
     } 
   } else {
+
     // we are going to use a for loop to sort through each item of the arrary
-    // for (var i = 0; i < dinerSelected.itemsOrdered.length; i++) {
-    //     if (dinerSelected.itemsOrdered[i] ===
-    // }
+    for (var i = 0; i < dinerSelected.itemsOrdered.length; i++) {
+        var getLiEls = document.getElementsByTagName('li'); 
+        for (var x = 0; x < getLiEls.length; x++) {
+          switch (dinerSelected.itemsOrdered[i]) {
+            case getLiEls[x].textNode:
+              getLiEls[x].className = "selected";
+              break;
+          }
+        }
+    }
     // we are going to take each string in the itemsOrdered array
     // we are going to get the array of li elements and compare each element in that array.
     // to the itemsOrdered array.
